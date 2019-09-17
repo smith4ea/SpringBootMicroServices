@@ -10,13 +10,16 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class PlantPlacesController {
 	
 	@RequestMapping("/start")
-	
 	public String Start() {
 		return "start";
 	}
 	
-	@RequestMapping("")
+	/**
+	 * Handle the / end points
+	 * @return
+	 */
 	
+	@RequestMapping("")
 	public String Index() {
 		return "start";
 	}
